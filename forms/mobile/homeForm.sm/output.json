@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb8520ce4d804b2f937d5df04902e31c",
+    "_text_": "<label style=\"color:#cc0000\">foo</label><br>\n<label style=\"color:#00cc00\">bar</label>",
+    "_top_": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "output",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f6d95462ac734ddd9313819452687060",
+    "linkskin": "s76e71745eb148d38b7fcb7ba446eed1",
+    "name": "kony.ui.RichText",
+    "parent": "homeForm",
+    "pf": "homeForm",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}
