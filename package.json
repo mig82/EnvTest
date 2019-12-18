@@ -1,0 +1,28 @@
+{
+	"name": "kony-env-test",
+	"version": "1.0.0",
+	"description": "A bunch of tests to see what's available in the environment of a Kony Visualizer app.",
+	"main": "index.js",
+	"keywords": [
+		"kony",
+		"visualizer",
+		"environment",
+		"test"
+	],
+	"author": "Miguelángel Fernández",
+	"license": "MIT",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"prep-q": "browserify -p tinyify node_modules/q/q.js -o modules/require/q.js",
+		"prep-t": "browserify -p tinyify node_modules/kony-timeout-polyfill/aaa_setTimeout.js -o modules/aaa_setTimeout.js",
+		"postinstall": "npm run prep-q & npm run prep-t"
+	},
+	"devDependencies": {
+		"browserify": "^16.5.0",
+		"tinyify": "^2.5.2"
+	},
+	"dependencies": {
+		"kony-timeout-polyfill": "^1.0.0",
+		"q": "^1.5.1"
+	}
+}
