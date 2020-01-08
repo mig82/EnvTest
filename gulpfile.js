@@ -12,13 +12,13 @@ function help(callback) {
 function copyModules(callback) {
 	return src("node_modules/kony-timeout-polyfill/aaa_setTimeout.js")
 	.pipe(uglify())
-	.pipe(dest("modules/kony-timout-polyfill/"));
+	.pipe(dest("modules"));
 }
 
 function copyRequireModules(callback) {
 	return src("node_modules/q/q.js")
 	.pipe(uglify())
-	.pipe(dest("modules/require/q/"));
+	.pipe(dest("modules/require"));
 }
 
 exports.default = series(parallel(copyModules, copyRequireModules));
