@@ -7,10 +7,11 @@ those questions.
 
 ## Q for Promises
 
-This project also tests the use of Q for Promises.
+This project also tests the use of [Q](https://github.com/kriskowal/q) for Promises.
+
 To set it up correctly you'll have to install a couple of dependencies and place
 them in the right folders. But fear not, this can all be done very easily with
-NPM and Gulp.
+[NPM](https://www.npmjs.com/get-npm) and [Gulp](https://gulpjs.com/).
 
 Assuming you already have NPM (probably if you've installed Node) on your
 workstation, just install Gulp by doing this:
@@ -22,12 +23,12 @@ npx -p touch nodetouch gulpfile.js
 gulp --help
 ```
 
-Then install Q and the Timeouts polyfill declared in `package.json`.
+Then install Q and the [Timeouts polyfill](https://www.npmjs.com/package/kony-timeout-polyfill) declared in `package.json`.
 ```
 npm install
 ```
 
-Then run Gulp to place those depdencies where Visualizer can find them.
+Then run Gulp to place those dependencies where Visualizer can find them.
 ```
 gulp
 ```
