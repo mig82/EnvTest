@@ -3,8 +3,8 @@ define(function(){
 	//TODO: Allow the user to input something to test for.
 	const tests = [
 		//{subject: "", type:""},
-		{subject: "this", type:"object"},
 		{subject: "window", type:"object"},
+		{subject: "document", type:"object"},
 
 		{subject: "Math", type:"object"},
 		{subject: "Date", type:"function"},
