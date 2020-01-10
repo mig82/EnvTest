@@ -30,7 +30,8 @@
     },
     "canUpdateUI": true,
     "children": [
-        "output"
+        "output",
+        "titleLabel"
     ],
     "containerweight": 100,
     "controllerInfo": {
