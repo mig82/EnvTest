@@ -22,10 +22,7 @@ define(function(){
 		{subject: "Promise", type:"function"},
 
 		{subject: "define", type: "function"},
-		{subject: "define.amd", type: "object"},
-		{subject: "q", type: "function", amd: true, props: [
-			{prop: "Promise", type: "function"}
-		]}
+		{subject: "define.amd", type: "object"}
 	];
 
 	return {
