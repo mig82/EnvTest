@@ -21,6 +21,12 @@ define(function(){
 
 		{subject: "Promise", type:"function"},
 
+		{subject: "XMLHttpRequest", type: "function"},
+
+		{subject: "unescape", type: "function"},
+		{subject: "btoa", type: "function"},
+		{subject: "encodeURIComponent", type: "function"},
+
 		{subject: "define", type: "function"},
 		{subject: "define.amd", type: "object"}
 	];
