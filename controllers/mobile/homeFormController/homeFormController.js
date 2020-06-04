@@ -28,7 +28,10 @@ define(function(){
 		{subject: "encodeURIComponent", type: "function"},
 
 		{subject: "define", type: "function"},
-		{subject: "define.amd", type: "object"}
+		{subject: "define.amd", type: "object"},
+
+		{subject: "Performance", type: "function"},
+		{subject: "performance", type: "object"}
 	];
 
 	return {
